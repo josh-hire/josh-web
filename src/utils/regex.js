@@ -1,0 +1,10 @@
+export const NUMBER = /[^0-9]/g; // NOSONAR
+export const NAME = /^[a-zA-Z ]*$/; // NOSONAR
+export const NIK = /\d{16}/g; // NOSONAR
+export const PREFIX_LICENSE_NUMBER = /^([a-zA-Z]){1,2}$/; // NOSONAR
+export const MIDDLE_LICENSE_NUMBER = /\d{4}/g; // NOSONAR
+export const SUFFIX_LICENSE_NUMBER = /^([a-zA-Z]){1,4}$/; // NOSONAR
+export const PHONE_NUMBER = /\+?([ -]?\d+)+|\(\d+\)([ -]\d+)/; // NOSONAR
+export const PHONE_NUMBER_LEADING_ZERO = /^(0)8[1-9]\d{6,10}$/; // NOSONAR
+export const EMAIL = /[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+/; // NOSONAR
+export const CURRENCY = /^-?(?:0|[1-9]\d{0,2}(?:.?\d{3})*)(?:\,\d+)?$/; // NOSONAR

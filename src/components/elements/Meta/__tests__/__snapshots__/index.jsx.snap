@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Meta render 1`] = `
+<Head>
+  <meta
+    content="width=device-width, initial-scale=1"
+    name="viewport"
+  />
+  <meta
+    content="#ffffff"
+    name="theme-color"
+  />
+  <meta
+    content="Logistis, PT_tester, Solusi Digital Digital, Telkom Indonesia, PT_tester Distribution, PT_tester Digital, Distribusi, Transport"
+    name="keywords"
+  />
+  <meta
+    content="PT_tester - Solusi Digital Bisnis Digital"
+    name="description"
+  />
+  <meta
+    content="PT_tester - Solusi Digital Bisnis Logistis"
+    property="og:title"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content=""
+    property="og:url"
+  />
+  <meta
+    content=""
+    property="og:image"
+  />
+  <meta
+    charSet="utf-8"
+  />
+  <link
+    href="/favicon.ico"
+    rel="icon"
+  />
+  <title>
+    PT_tester - PT_tester Solusi Digital Bisnis Digital
+  </title>
+</Head>
+`;

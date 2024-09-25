@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/MotionAnimate MotionAnimate rtl 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  />
+</DocumentFragment>
+`;
+
+exports[`src/components/elements/MotionAnimate MotionAnimate rtl onActiveChange 1`] = `
+<DocumentFragment>
+  <div
+    class="root"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,116 @@
+.root{
+  background-color: rgba(0, 0, 0, 1);
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+  width: 100%;
+  border-top: 1px solid rgba(126,126,126,1);
+}
+
+.boxItem {
+  width: 100%;
+}
+
+.footerLogo {
+  width: 9.875rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.boxSosmed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.sosmedItem {
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.titleMenuBottom {
+  font-family: var(--font-lato);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.titleMenuBottomLeft {
+  font-family: var(--font-lato);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0rem;
+}
+
+.titleLInk {
+  font-family: var(--font-lato);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #D9DBE1;
+}
+
+.titleLInk>a {
+  cursor: default;
+}
+
+.isLink>a {
+  cursor: pointer;
+}
+
+.boxTitleLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
+
+.boxIconLink {
+  min-width: 17px;
+  height: auto;
+  margin-right: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxIconLink>div {
+  min-width: 17px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.2rem;
+}
+
+.noted {
+  font-family: var(--font-nanumpen);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  margin-left: 0.4rem;
+  color: #E8590C;
+}
+
+@media screen and (max-width: 775px) {
+  .titleMenuBottom {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .boxTitleLink {
+    margin-bottom: 0.8rem;
+  }
+}

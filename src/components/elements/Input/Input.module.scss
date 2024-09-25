@@ -1,0 +1,133 @@
+.container {
+  display: grid;
+  gap: 0px 0px;
+  grid-auto-columns: auto;
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
+  grid-template-areas:
+    "label"
+    "input-box"
+    "message";
+  grid-template-columns: 100%;
+  grid-template-rows: auto 44px auto;
+  margin-bottom: 4px;
+}
+
+.container-icon {
+  grid-template-areas:
+    "label label"
+    "input-box icon"
+    "message message";
+  grid-template-columns: 1fr 24px;
+  grid-template-rows: auto 44px auto;
+}
+
+.container-inset-icon>div.input-box {
+  position: relative;
+
+  div.insetIcon {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 10px;
+
+    span.insetIcon {
+      svg {
+        width: 20px;
+        height: auto;
+      }
+    }
+  }
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  grid-area: icon;
+  justify-content: center;
+}
+
+.label {
+  grid-area: label;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: flex;
+  color: #26272B;
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  grid-area: message;
+  height: 24px;
+}
+
+.autoHeight {
+  height: auto;
+}
+
+.input-box {
+  grid-area: input-box;
+
+  input {
+    appearance: none;
+    background: white;
+    border: 1px solid #D1D1D6;
+    border-radius: 0.50rem;
+    box-sizing: border-box;
+    color: #26272B;
+    font-family: var(--font-nunito-sans);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    height: 100%;
+    padding: 0.5em 0.75em;
+    transition: all 0.25s;
+    width: 100%;
+
+    &:focus {
+      border: 0.0625rem solid #B4000F;
+      outline: none;
+    }
+
+    &:focus:not(.error) {
+      border: 0.0625rem solid #B4000F !important;
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #969492;
+    }
+  }
+}
+
+.disabledLabel {
+  color: #C9C7C5 !important;
+}
+
+.error {
+  color: #B4000F;
+}
+
+.errorInput {
+  color: #B4000F;
+  border: 0.0625rem solid #B4000F !important;
+}
+
+.empty {
+  color: #DDDBDA;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+.message {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+.required {
+  color: #B4000F;
+  margin-left: 0.2rem;
+}

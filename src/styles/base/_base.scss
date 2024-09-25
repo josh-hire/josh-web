@@ -1,0 +1,119 @@
+@import '../utilities/variables';
+@import '../fonts/nunito-sans';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $color-background !important;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-x: none;
+
+  .ql-align-center {
+    text-align: center;
+  }
+
+  .ql-align-right {
+    text-align: right;
+  }
+
+  .ql-align-justify {
+    text-align: justify;
+  }
+}
+
+img {
+  --webkit-user-drag: none !important;
+  --khtml-user-drag: none !important;
+  --moz-user-drag: none !important;
+  -o-user-drag: none !important;
+  user-select: none !important;
+  pointer-events: none !important;
+}
+
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --font-ubuntu: "Ubuntu";
+  --font-ubuntu-medium: "Ubuntu-medium";
+  --font-lato: 'Lato';
+  --font-nanumpen: 'Nanum Pen';
+  --font-nunito-sans: 'Nunito Sans';
+
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  animation: fade-in 0.5s ease-in-out;
+  box-sizing: border-box;
+}
+
+.grecaptcha-badge {
+  Digital: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background: $color-secondary;
+  position: absolute;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0px 5px 1.25rem rgba(74, 74, 74, 0.2);
+  border-radius: 25px;
+}
+
+.m-view-br {
+  display: none;
+
+}
+
+.d-view-br {
+  display: inherit;
+}
+
+.mView {
+  display: none;
+}
+
+.dView {
+  display: block;
+}
+
+@media screen and (max-width: 775px) {
+  .m-view-br {
+    display: inherit;
+  }
+
+  .d-view-br {
+    display: none;
+  }
+
+  .mView {
+    display: block;
+  }
+
+  .dView {
+    display: none;
+  }
+}

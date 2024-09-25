@@ -1,0 +1,45 @@
+@import 'Styles/utilities/mixins';
+
+.root {
+  height: 100vh;
+  padding: 10% 0;
+  background-color: white;
+  width: 100%;
+
+  .inner {
+    position: 'relative';
+
+    .content {
+      text-align: center;
+      z-index: 1;
+
+      h1 {
+        font-size: 1.875rem;
+        font-weight: 900;
+        max-width: 540;
+        margin: 'auto';
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        max-width: 540;
+        margin: 'auto';
+      }
+
+      h3 {
+        color: #0F6EB5;
+        font-size: 1.5rem;
+        margin: 'auto';
+        max-width: 540;
+      }
+    }
+  }
+}
+
+@include for-phone-only {
+  .root {
+    padding: 40% 0;
+  }
+}

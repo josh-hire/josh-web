@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/Navigation Navigation 1`] = `
+<@mantine/core/Navbar
+  className="navbar hidden"
+  list={[]}
+  p="md"
+  style={
+    {
+      "--width": "100px",
+    }
+  }
+  width={
+    {
+      "base": 100,
+    }
+  }
+>
+  <@mantine/core/Section
+    className="mantine-1do6r92"
+    component={
+      {
+        "$$typeof": Symbol(react.forward_ref),
+        "Autosize": {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    grow={true}
+    sx={
+      {
+        "width": "115px",
+      }
+    }
+  >
+    <@mantine/core/Box
+      py="20px"
+    >
+      https://test.com
+    </@mantine/core/Box>
+  </@mantine/core/Section>
+</@mantine/core/Navbar>
+`;

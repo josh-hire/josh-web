@@ -1,0 +1,45 @@
+@import 'Styles/utilities/variables';
+
+.container {
+  width: auto;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: .5rem .75rem;
+  gap: 1rem;
+  z-index: 1000;
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    display: flex;
+  }
+
+  &.green {
+    background-color: $color-success-10;
+    color: #25282B;
+
+    svg {
+      fill: $color-success;
+    }
+  }
+
+  &.red {
+    background-color: $color-error-10;
+    color: #25282B;
+
+    svg {
+      fill: $color-error;
+    }
+  }
+}

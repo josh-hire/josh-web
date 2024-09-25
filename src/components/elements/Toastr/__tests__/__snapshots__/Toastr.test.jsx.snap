@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/component/elements/Toastr Toastr render 1`] = `
+<ReactQueryContextProvider>
+  <MantineContextProvider>
+    <AuthContextProvider>
+      <ToastrContextProvider>
+        <Toastr />
+      </ToastrContextProvider>
+    </AuthContextProvider>
+  </MantineContextProvider>
+</ReactQueryContextProvider>
+`;

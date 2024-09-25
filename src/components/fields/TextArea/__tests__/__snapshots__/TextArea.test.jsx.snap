@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/TextArea TextArea 1`] = `
+<DocumentFragment>
+  <div
+    class="mantine-InputWrapper-root mantine-Textarea-root mantine-1m3pqry"
+  >
+    <div
+      class="mantine-Input-wrapper mantine-Textarea-wrapper mantine-12sbrde"
+    >
+      <textarea
+        aria-invalid="false"
+        class="mantine-Input-input mantine-Textarea-input mantine-5mc5fy"
+        id="mantine-r0"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

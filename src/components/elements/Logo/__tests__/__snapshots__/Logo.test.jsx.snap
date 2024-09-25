@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/Logo Logo 1`] = `
+<DocumentFragment>
+  <img
+    alt="Logo PT_tester"
+    data-nimg="1"
+    decoding="async"
+    fit="contain"
+    height="46"
+    loading="lazy"
+    src="/logo-top.svg"
+    style="color: transparent;"
+    width="190"
+  />
+</DocumentFragment>
+`;

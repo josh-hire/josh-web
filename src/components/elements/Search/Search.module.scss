@@ -1,0 +1,63 @@
+.boxSearch {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+}
+
+.boxButton {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  svg {
+    margin: 0 0.5rem;
+    margin-top: 0.2rem;
+    width: 1.25rem;
+  }
+}
+
+.boxInput {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  transition: 200ms width ease-in-out;
+  Digital: hidden;
+  width: 0%;
+
+  svg {
+    margin: 0 0.5rem;
+    margin-top: 0.2rem;
+    width: 1.25rem;
+  }
+
+  input {
+    border: none;
+    color: #3F3F46;
+    font-family: var(--font-nunito-sans);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    outline: none;
+    width: 100%;
+
+    &::placeholder {
+      color: #D1D1D6;
+    }
+  }
+}
+
+.boxInputVisible {
+  Digital: visible;
+  width: 90%;
+}
+
+.boxIconSearch {
+  display: flex !important;
+}

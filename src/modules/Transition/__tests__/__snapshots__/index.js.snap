@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/modules/Transition Transition 1`] = `
+<DocumentFragment>
+  <div
+    class="effect-1"
+  >
+    <div
+      style="opacity: 0; transform: none;"
+    >
+      <div />
+    </div>
+  </div>
+</DocumentFragment>
+`;

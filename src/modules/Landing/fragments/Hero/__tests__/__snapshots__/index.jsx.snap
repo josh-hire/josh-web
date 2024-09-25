@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/modules/Landing/fragments/Hero should be able to render Hero 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mantine-Container-root root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Grid-root mantine-nsdj"
+        >
+          <div
+            class="mantine-Grid-col mantine-fhjbsl"
+          >
+            <div
+              class="mantine-129nl33"
+            >
+              <h1
+                class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+              >
+                Caffeine Composers
+              </h1>
+              <h1
+                class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+              >
+                get swiping
+              </h1>
+              <div
+                class="mantine-Text-root description mantine-1pbxw0k"
+              >
+                Getahead has launched the world's fastest jobs app
+              </div>
+              <button
+                class="mantine-UnstyledButton-root mantine-Button-root button mantine-8nr514"
+                data-button="true"
+                type="button"
+              >
+                <div
+                  class="mantine-3xbgk5 mantine-Button-inner"
+                >
+                  <span
+                    class="mantine-qo1k2 mantine-Button-label"
+                  >
+                    Download the app
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div
+            class="mantine-Grid-col mantine-fhjbsl"
+          >
+            <div
+              class="heroImage"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="Logo PT_tester"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/hero.png"
+                      style="object-fit: cover; width: 100%; height: auto;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mantine-Container-root root mantine-15pjuqq"
+    >
+      <div
+        class="mantine-Grid-root mantine-nsdj"
+      >
+        <div
+          class="mantine-Grid-col mantine-fhjbsl"
+        >
+          <div
+            class="mantine-129nl33"
+          >
+            <h1
+              class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+            >
+              Caffeine Composers
+            </h1>
+            <h1
+              class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+            >
+              get swiping
+            </h1>
+            <div
+              class="mantine-Text-root description mantine-1pbxw0k"
+            >
+              Getahead has launched the world's fastest jobs app
+            </div>
+            <button
+              class="mantine-UnstyledButton-root mantine-Button-root button mantine-8nr514"
+              data-button="true"
+              type="button"
+            >
+              <div
+                class="mantine-3xbgk5 mantine-Button-inner"
+              >
+                <span
+                  class="mantine-qo1k2 mantine-Button-label"
+                >
+                  Download the app
+                </span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div
+          class="mantine-Grid-col mantine-fhjbsl"
+        >
+          <div
+            class="heroImage"
+          >
+            <div
+              class="mantine-Image-root mantine-15po0m8"
+              style="width: 100%;"
+            >
+              <figure
+                class="mantine-11nhzn5 mantine-Image-figure"
+              >
+                <div
+                  class="mantine-qqmv3w mantine-Image-imageWrapper"
+                >
+                  <img
+                    alt="Logo PT_tester"
+                    class="mantine-3y8yz3 mantine-Image-image"
+                    src="/assets/home/images/hero.png"
+                    style="object-fit: cover; width: 100%; height: auto;"
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

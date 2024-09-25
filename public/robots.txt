@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dev.PT_tester.id
+
+# Sitemaps
+Sitemap: https://dev.PT_tester.id/sitemap.xml

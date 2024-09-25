@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/component/elements/UserButton UserButton render 1`] = `
+<@mantine/core/UnstyledButton
+  className="mantine-6th54c"
+>
+  <@mantine/core/Group>
+    <@mantine/core/Avatar
+      radius="xl"
+      src=""
+    />
+    <@mantine/core/Group>
+      <div
+        style={
+          {
+            "flex": 1,
+          }
+        }
+      >
+        <@mantine/core/Text
+          size="sm"
+          weight={500}
+        >
+          
+        </@mantine/core/Text>
+        <@mantine/core/Text
+          color="dimmed"
+          size="xs"
+        >
+          
+        </@mantine/core/Text>
+      </div>
+    </@mantine/core/Group>
+  </@mantine/core/Group>
+</@mantine/core/UnstyledButton>
+`;

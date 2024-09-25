@@ -1,0 +1,96 @@
+/*
+* This file contains all application-wide Scss variables.
+* Those include colors, fonts, breakpoints, etc
+*/
+
+/*
+* This color tokenization comes from color system defined in
+* https://www.figma.com/file/IzkpgHARGwHPvRCD4LIvq1/MyPertamina---UI-Foundation-Component?node-id=6655%3A229583
+* Any developer should contact the maintainer to gain the access to that file.
+* Default variant is 50
+*/
+
+// Primary Color
+$color-primary: #EA2036;
+$color-primary-70: #8E030F;
+$color-primary-60: #BA0517;
+$color-primary-40: #F92C39;
+$color-primary-30: #FE8F7D;
+$color-primary-20: #FEDED8;
+$color-primary-10: #FEDED8;
+
+// Secondary Color
+$color-secondary: red;
+$color-secondary-70: #0D4D93;
+$color-secondary-60: #0964AA;
+$color-secondary-40: #117EC9;
+$color-secondary-30: #0F9EEC;
+$color-secondary-20: #7FCEF7;
+$color-secondary-10: #E0F3FE;
+
+// Tertiery Color
+$color-tertiery: #ACC23A;
+$color-tertiery-70: #72701E;
+$color-tertiery-60: #9CAC32;
+$color-tertiery-40: #B7D440;
+$color-tertiery-30: #C0DA5B;
+$color-tertiery-20: #D9EA9D;
+$color-tertiery-10: #F6FAE7;
+
+// Accent Color - Warning
+$color-warning: #FC8338;
+$color-warning-70: #D0500B;
+$color-warning-60: #FB6000;
+$color-warning-40: #FFC248;
+$color-warning-30: #FFE348;
+$color-warning-20: #FFF3A2;
+$color-warning-10: #FFFDE9;
+
+// Accent Color - Success
+$color-success: #44AB4A;
+$color-success-70: #105B19;
+$color-success-60: #308A36;
+$color-success-40: #60B864;
+$color-success-30: #7CC47F;
+$color-success-20: #E0FFE1;
+$color-success-10: #F2FFF3;
+
+// Accent Color - Error
+$color-error: #CF212A;
+$color-error-70: #C0101D;
+$color-error-60: #C01D25;
+$color-error-40: #DC2931;
+$color-error-30: #FD3E38;
+$color-error-20: #FFCDD4;
+$color-error-10: #FFEBEF;
+
+// Accent Color - Information
+$color-information: #47C7FF;
+$color-information-70: #2172CC;
+$color-information-60: #36A3FC;
+$color-information-40: #61D0FF;
+$color-information-30: #80DAFF;
+$color-information-20: #CAEEFF;
+$color-information-10: #EBF8FF;
+
+// Grayscale Color
+$color-gray: #C5D0DE;
+$color-gray-100: #25282B;
+$color-gray-90: #3E4247;
+$color-gray-80: #52575C;
+$color-gray-70: #D9DEE4;
+$color-gray-60: #A0A4A8;
+$color-gray-40: #CACCCF;
+$color-gray-30: #E4E5E7;
+$color-gray-20: #F1F2F3;
+$color-gray-10: #FFFFFF;
+
+$color-background: #F8F9FF;
+
+/*
+* Variables related to fonts
+*/
+
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;

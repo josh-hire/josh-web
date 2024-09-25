@@ -1,0 +1,24 @@
+@import '../utilities/variables';
+
+/*
+* This typography comes from typography system defined in
+* https://www.figma.com/file/IzkpgHARGwHPvRCD4LIvq1/MyPertamina---UI-Foundation-Component?node-id=8455%3A18658
+* Any developer should contact the maintainer to gain the access to that file.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-ubuntu);
+  color: $color-gray-80;
+  font-weight: 500;
+}
+
+body {
+  font-family: var(--font-lato) !important;
+  color: $color-gray-80  !important;
+  font-weight: $font-weight-regular;
+}

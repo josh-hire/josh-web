@@ -1,0 +1,498 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/modules/Landing/fragments/JobHunting should be able to render JobHunting 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="mantine-Container-root root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-1f9r7h7"
+        >
+          <div
+            class="mantine-ha1w0a"
+          >
+            <h1
+              class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+            >
+              Your job hunting superpower
+            </h1>
+          </div>
+          <div
+            class="mantine-SimpleGrid-root mantine-13929nf"
+          >
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job1"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job1.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Designed to match you with companies that fit your wants and needs. From dog friendly offices to working from home, simply set your wish list and get swiping.
+              </h1>
+            </div>
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job2"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job2.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Resume? We think your career is worthy of a beautiful profile showcasing YOU, your experience, strengths, and passions. Oh and no cover letters, EVER.
+              </h1>
+            </div>
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job3"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job3.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Swipe through jobs left and right. Transparency is key. See what perks are on offer, what salary is being paid, learn about the role, the company hiring and if you like what you see, simply swipe right to apply. It is that easy.
+              </h1>
+            </div>
+          </div>
+          <div
+            class="mantine-SimpleGrid-root mantine-13929nf"
+          >
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job4"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job4.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Match with your next role. Once you find your ideal job and swipe right, the company hiring has the opportunity to swipe right on your profile as well. If they do, it is a match made in Getahead.
+              </h1>
+            </div>
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job5"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job5.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Once matched you can chat with the company/candidate directly through our app. Set up a time for an interview, ask further questions and get to know more about each other.
+              </h1>
+            </div>
+            <div
+              class="mantine-1fr50if"
+            >
+              <div
+                class="jobItems"
+              >
+                <div
+                  class="mantine-Image-root mantine-15po0m8"
+                  style="width: 100%;"
+                >
+                  <figure
+                    class="mantine-11nhzn5 mantine-Image-figure"
+                  >
+                    <div
+                      class="mantine-qqmv3w mantine-Image-imageWrapper"
+                    >
+                      <img
+                        alt="job6"
+                        class="mantine-3y8yz3 mantine-Image-image"
+                        src="/assets/home/images/job-hunting/job6.png"
+                        style="object-fit: contain; width: 100%; height: 400px;"
+                      />
+                    </div>
+                  </figure>
+                </div>
+              </div>
+              <h1
+                class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+              >
+                Save even more time by interviewing directly through the app with a ‘face to face’ video call. Need someone to start tomorrow? You have all the tools right at your fingertips.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="mantine-Container-root root mantine-15pjuqq"
+    >
+      <div
+        class="mantine-1f9r7h7"
+      >
+        <div
+          class="mantine-ha1w0a"
+        >
+          <h1
+            class="mantine-Text-root mantine-Title-root title mantine-dyfpg1"
+          >
+            Your job hunting superpower
+          </h1>
+        </div>
+        <div
+          class="mantine-SimpleGrid-root mantine-13929nf"
+        >
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job1"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job1.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Designed to match you with companies that fit your wants and needs. From dog friendly offices to working from home, simply set your wish list and get swiping.
+            </h1>
+          </div>
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job2"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job2.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Resume? We think your career is worthy of a beautiful profile showcasing YOU, your experience, strengths, and passions. Oh and no cover letters, EVER.
+            </h1>
+          </div>
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job3"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job3.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Swipe through jobs left and right. Transparency is key. See what perks are on offer, what salary is being paid, learn about the role, the company hiring and if you like what you see, simply swipe right to apply. It is that easy.
+            </h1>
+          </div>
+        </div>
+        <div
+          class="mantine-SimpleGrid-root mantine-13929nf"
+        >
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job4"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job4.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Match with your next role. Once you find your ideal job and swipe right, the company hiring has the opportunity to swipe right on your profile as well. If they do, it is a match made in Getahead.
+            </h1>
+          </div>
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job5"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job5.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Once matched you can chat with the company/candidate directly through our app. Set up a time for an interview, ask further questions and get to know more about each other.
+            </h1>
+          </div>
+          <div
+            class="mantine-1fr50if"
+          >
+            <div
+              class="jobItems"
+            >
+              <div
+                class="mantine-Image-root mantine-15po0m8"
+                style="width: 100%;"
+              >
+                <figure
+                  class="mantine-11nhzn5 mantine-Image-figure"
+                >
+                  <div
+                    class="mantine-qqmv3w mantine-Image-imageWrapper"
+                  >
+                    <img
+                      alt="job6"
+                      class="mantine-3y8yz3 mantine-Image-image"
+                      src="/assets/home/images/job-hunting/job6.png"
+                      style="object-fit: contain; width: 100%; height: 400px;"
+                    />
+                  </div>
+                </figure>
+              </div>
+            </div>
+            <h1
+              class="mantine-Text-root mantine-Title-root jobDesc mantine-dyfpg1"
+            >
+              Save even more time by interviewing directly through the app with a ‘face to face’ video call. Need someone to start tomorrow? You have all the tools right at your fingertips.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

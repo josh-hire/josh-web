@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/modules/Layout/DefaultLayout DefaultLayout 1`] = `
+<DocumentFragment>
+  <div
+    class="header"
+  >
+    <header
+      class="mantine-Header-root root mantine-3ht4wd"
+    >
+      <div
+        class="mantine-Container-root mantine-twlw17"
+      >
+        <div
+          class="mantine-Group-root mantine-1l44p2c"
+        >
+          <button
+            class="mantine-UnstyledButton-root mantine-Burger-root mantine-iyoygf"
+            type="button"
+          >
+            <div
+              class="mantine-1hfrgwx mantine-Burger-burger"
+            />
+          </button>
+          <a
+            href="/"
+          >
+            <span
+              class="boxLogo"
+              style="cursor: pointer; text-align: left;"
+            >
+              Logo Header
+            </span>
+          </a>
+        </div>
+        <div
+          class="boxHamburgerMenu"
+          style="display: none;"
+        >
+          <a
+            href="/"
+          >
+            <div
+              class="boxLogo"
+            >
+              LOGO
+            </div>
+          </a>
+          <div
+            class="menuDropdown"
+          >
+            <div
+              class="mantine-Image-root mantine-15po0m8"
+              style="width: 100%;"
+            >
+              <figure
+                class="mantine-11nhzn5 mantine-Image-figure"
+              >
+                <div
+                  class="mantine-qqmv3w mantine-Image-imageWrapper"
+                >
+                  <img
+                    alt="Icon Menu PT_tester"
+                    class="mantine-7mfp4c mantine-Image-image"
+                    src="/assets/img/home/menu.png"
+                    style="object-fit: contain; width: 100%; height: auto;"
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div
+            class="boxDropdown boxDropdown"
+          >
+            <div
+              class="boxButtonMobile"
+            >
+              <a
+                href="undefined"
+              >
+                <button
+                  class="mantine-UnstyledButton-root mantine-Button-root button mantine-11gt8e8"
+                  data-button="true"
+                  type="button"
+                >
+                  <div
+                    class="mantine-3xbgk5 mantine-Button-inner"
+                  >
+                    <span
+                      class="mantine-qo1k2 mantine-Button-label"
+                    >
+                      LOGIN
+                    </span>
+                  </div>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mantine-Group-root mantine-zpkt54"
+        >
+          <div
+            class="mantine-Group-root mantine-1i34gaz"
+          >
+            <div
+              class="mantine-fxia79"
+            >
+              <a
+                href="/contact-us"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+          <div
+            class="mantine-Group-root mantine-zpkt54"
+          >
+            <a
+              href=""
+            >
+              <span
+                class="button"
+              >
+                Download the app
+              </span>
+            </a>
+            <a
+              href=""
+            >
+              <svg
+                class="feather feather-twitter sosMed"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <g>
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a
+              href=""
+            >
+              <svg
+                class="feather feather-facebook sosMed"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <g>
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a
+              href=""
+            >
+              <svg
+                class="feather feather-user sosMed"
+                fill="none"
+                height="24"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <g>
+                  <path
+                    d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer
+      class="mantine-Footer-root root mantine-ktcsc8"
+    >
+      <div
+        class="mantine-Container-root mantine-15pjuqq"
+      >
+        <div
+          class="mantine-Grid-root mantine-18mjbuy"
+        >
+          <div
+            class="mantine-Grid-col mantine-fda70h"
+          >
+            <div
+              class="mantine-SimpleGrid-root mantine-9rm17r"
+            >
+              <div
+                class="mantine-Text-root titleMenuBottomLeft mantine-avrcqo"
+                order="1"
+              >
+                Logo Footer
+              </div>
+              <div
+                class="mantine-Text-root title mantine-xmyka6"
+              >
+                © 2024 getahead. All rights reserved.
+              </div>
+            </div>
+          </div>
+          <div
+            class="mantine-Grid-col imageWrap mantine-1i91qsw"
+          >
+            <div
+              class="mantine-1jggmkl"
+            >
+              <div
+                class="boxItem"
+              >
+                <div
+                  class="mantine-Text-root titleMenuBottom mantine-9ghcob"
+                  order="1"
+                  style="display: flex;"
+                >
+                  Company
+                </div>
+                <div
+                  class="boxTitleLink"
+                  style="display: flex;"
+                >
+                  <div
+                    class="mantine-Text-root titleLInk isLink mantine-5fkbbi"
+                    order="3"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Work for us 
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="boxItem"
+              >
+                <div
+                  class="mantine-Text-root titleMenuBottom mantine-9ghcob"
+                  order="1"
+                  style="display: flex;"
+                >
+                  Legal
+                </div>
+                <div
+                  class="boxTitleLink"
+                  style="display: flex;"
+                >
+                  <div
+                    class="mantine-Text-root titleLInk isLink mantine-5fkbbi"
+                    order="3"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Terms and conditions 
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="boxTitleLink"
+                  style="display: flex;"
+                >
+                  <div
+                    class="mantine-Text-root titleLInk isLink mantine-5fkbbi"
+                    order="3"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Privacy Policy 
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="boxItem"
+              >
+                <div
+                  class="mantine-Text-root titleMenuBottom mantine-9ghcob"
+                  order="1"
+                  style="display: flex; margin-left: 70px;"
+                >
+                  Contact
+                </div>
+                <div
+                  class="boxTitleLink"
+                  style="display: flex; margin-left: 70px;"
+                >
+                  <div
+                    class="mantine-Text-root titleLInk isLink mantine-5fkbbi"
+                    order="3"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Get in touch 
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="boxTitleLink"
+                  style="display: flex; margin-left: 70px;"
+                >
+                  <div
+                    class="mantine-Text-root titleLInk isLink mantine-5fkbbi"
+                    order="3"
+                  >
+                    <a
+                      href="#"
+                    >
+                      Media/PR 
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`src/components/modules/Layout/DefaultLayout DefaultLayout Function 1`] = `
+<div
+  className="header"
+>
+  <HeaderSection
+    isHome={false}
+    isScroll={false}
+    links={
+      [
+        {
+          "label": "Contact Us",
+          "link": "/contact-us",
+        },
+      ]
+    }
+  />
+  <FooterSection />
+  <ScrollToTop />
+</div>
+`;
