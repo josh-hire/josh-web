@@ -16,7 +16,8 @@ export function middleware(request: NextRequest) {
 
   if (!cookie && isProtected) {
     const from = pathname;
-    return NextResponse.redirect(new URL(`/login?from=${from}`, request.url));
+    
+return NextResponse.redirect(new URL(`/login?from=${from}`, request.url));
   }
 
   if (cookie && (request.nextUrl.pathname === '/' || notProtected)) {

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/configs test config images 1`] = `
+{
+  "WEB TESTER": "/assets/logo/mylogo.png",
+}
+`;
+
+exports[`src/configs test config index 1`] = `
+{
+  "WEB TESTER": "/assets/logo/mylogo.png",
+}
+`;
+
+exports[`src/configs test config index 2`] = `"__PT_tester-token"`;
+
+exports[`src/configs test config index 3`] = `"user_profile"`;
+
+exports[`src/configs test config services 1`] = `
+{
+  "GET_CONTACTUS": "v1/contactus",
+  "LOGIN": "user/v1/admins/auth/login",
+}
+`;

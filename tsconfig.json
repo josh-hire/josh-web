@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "incremental": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "paths": {
+        "Assets/*": ["./public/assets/*"],
+        "Components/*": ["./src/components/*"],
+        "Configs": ["./src/configs/index"],
+        "Elements/*":["./src/components/elements/*"],
+        "Styles/*": ["./src/styles/*"],
+        "Configs/*": ["./src/configs/*"],
+        "Constants/*": ["./src/constants/*"],
+        "Contexts/*": ["./src/contexts/*"],
+        "Hooks/*": ["./src/hooks/*"],
+        "Modules/*": ["./src/modules/*"],
+        "Services/*": ["./src/services/*"],
+        "Utils/*": ["./src/utils/*"],
+        "Layout/*":["./src/modules/Layout/*"],
+      }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js", "next.config.mjs"],
+    "exclude": ["node_modules"]
+  }

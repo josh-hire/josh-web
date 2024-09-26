@@ -35,15 +35,6 @@ const nextConfig = {
     SITE_URL: process.env.SITE_URL,
     URL_PT_tester_APP: process.env.URL_PT_tester_APP,
   },
-  async redirects() {
-    return [
-      {
-        source: '/contact-us',
-        destination: '/contact-us',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
