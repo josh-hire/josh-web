@@ -1,10 +1,15 @@
+'use client';
 import { Title, Container, Flex, Image, Text } from '@mantine/core';
 import Link from 'next/link';
 import styles from './styles.module.scss';
 import { Carousel } from '@mantine/carousel';
 import MotionAnimate from 'Components/elements/MotionAnimate';
+import Autoplay, { AutoplayType } from 'embla-carousel-autoplay';
+import { MutableRefObject, useRef } from 'react';
 
 export function ProductSection() {
+  const autoplay:MutableRefObject<AutoplayType> = useRef(Autoplay({ delay: 2000 }));
+
   const productData = [
     {
       imgUrl: '/assets/home/images/products/product1.png',
@@ -68,12 +73,20 @@ export function ProductSection() {
             </Title>
           </Flex>
           <Carousel
+            onMouseEnter={() => {
+              autoplay?.current?.stop();
+            }}
+            onMouseLeave={() => {
+              autoplay?.current?.reset();
+              autoplay?.current?.play();
+            }}
             dragFree
+            loop
             slideSize="25%"
-            slideGap="xl"
             height={664}
             withControls={false}
-            initialSlide={2}>
+            initialSlide={2}
+            plugins={[autoplay.current]}>
             {productItems()}
           </Carousel>
         </Flex>
