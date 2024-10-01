@@ -6,11 +6,13 @@ import { HeroSection } from 'Modules/Landing/fragments/Hero/Hero';
 import { FooterSection } from 'Modules/Landing/Footer/Footer';
 import styles from 'Styles/pages/Home.module.scss';
 import ScrollToTop from 'Modules/Landing/fragments/ScrollToTop';
-import { JobHuntingSection } from 'Modules/Landing/fragments/JobHunting/JobHunting';
+import { AboutUsSection } from 'Modules/Landing/fragments/AboutUs/AboutUs';
+import { ProductSection } from 'Modules/Landing/fragments/Product/Product';
 
 export default function Home() {
   const navigationMenu = [
-    { link: `/contact-us`, label: 'Contact Us' },
+    { link: `/contact-us`, label: 'Contact' },
+    { link: `/sign-up`, label: 'Sign Up' },
   ];
 
   const { pathname } = useRouter();
@@ -61,12 +63,12 @@ export default function Home() {
         <meta content="summary_large_image" name="twitter:card" />
         <meta content="#ffffff" name="theme-color" />
         <meta content="120000" property="og:updated_time" />
-        {/* fb domain verification */}
         <meta content="abmonxcvzw5b1wnd422dy6jbjz8z15" name="facebook-domain-verification" />
       </Head>
       <HeaderSection links={navigationMenu} />
       <HeroSection />
-      <JobHuntingSection/>
+      <AboutUsSection/>
+      <ProductSection/>
       <FooterSection />
       <ScrollToTop />
     </div>

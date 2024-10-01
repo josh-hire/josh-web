@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { URL_PT_tester_APP } from 'Utils/constants';
 import { useStyles } from './Header.styles';
 import styles from './styles.module.scss';
-import FeatherIcon from 'feather-icons-react';
 
 export const HEADER_HEIGHT = 80;
 
@@ -63,13 +62,11 @@ export function HeaderSection({ links }: HeaderSectionProps) {
 
   return (
     <Header className={styles.root} height={HEADER_HEIGHT} mb={120} onMouseLeave={() => setOpened(false)}>
-      <Container className={clsx(classes.inner, opened ? classes.innerActive : classes.inner)}>
+      <Container className={clsx(classes.inner, opened ? classes.innerActive : classes.inner)} size={'lg'}>
         <Group className={classes.menu}>
           <Burger className={classes.burger} opened={opened} size="sm" />
           <Link href={`/`}>
-            <p className={styles.boxLogo} style={{ cursor: 'pointer', textAlign: 'left' }}>
-              Logo Header
-            </p>
+            <Image alt="Logo-header" src={'/assets/home/images/logo-header.png'} />
           </Link>
         </Group>
         <div className={styles.boxHamburgerMenu} style={{ display: 'none' }}>
@@ -96,7 +93,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
             <Link href={''} passHref>
               <span className={styles.button}>Download the app</span>
             </Link>
-            <Link href={''} passHref>
+            {/* <Link href={''} passHref>
               <FeatherIcon className={styles.sosMed} icon="twitter" />
             </Link>
             <Link href={''} passHref>
@@ -104,7 +101,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
             </Link>
             <Link href={''} passHref>
               <FeatherIcon className={styles.sosMed} icon="user" />
-            </Link>
+            </Link> */}
           </Group>
         </Group>
       </Container>

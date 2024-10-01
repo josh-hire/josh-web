@@ -1,0 +1,72 @@
+.root{
+  display: flex;
+  background-color: black;
+  height: auto;
+  padding-top: 0;
+  padding-top: 20rem;
+  padding-bottom: 13rem;
+  width: 100%;
+  background-image: url('/assets/home/images/aboutUs/bg-aboutus.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+ 
+}
+
+.containerCard{
+  width: 100%;
+  background-color: #031C30;  
+  min-height: 702px;
+  border-radius: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px;
+}
+
+.boxTitle{
+  width: 100%;
+  padding: 30px 0px;
+  border-bottom: 3px solid white;
+}
+
+.titleContent{
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.title{
+  font-size: 45px;
+  color: white;
+}
+
+.description{
+  font-size:18px;
+  font-weight: 600;
+  text-align:justify;
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.jobDesc{
+  font-size: 15px;
+  color: white;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-left: 12px;
+  margin-top:10px;
+  font-weight: 300;
+  line-height: 1.5;
+
+}
+
+.jobItems{
+  border-radius: 30px;
+  background-color: #fd91f5;
+  padding: 15px 50px 0px;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

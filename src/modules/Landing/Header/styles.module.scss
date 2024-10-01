@@ -11,7 +11,7 @@
 
 .button {
   align-items: center;
-  background-color: transparent;
+  background-color: white;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -19,14 +19,13 @@
   height: 40px;
   justify-content: center;
   padding: 10px 12px;
-  color: white;
+  color: #333333;
   border: 1px solid white;
   cursor: pointer;
   margin-right: 16px;
+  font-size: 16px;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
     border: 1px solid white;
     transition: 0.1s all ease-in-out;
   }
@@ -34,27 +33,6 @@
 .sosMed{
   color:white;
   margin-right: 6px;
-
-}
-.buttonJoin {
-  align-items: center;
-  background-color: white;
-  border: 1px solid #E8590C;
-  border-radius: 8px;
-  color: #E8590C;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  height: 40px;
-  justify-content: center;
-  margin-right: 0.5rem;
-  padding: 10px 12px;
-
-  &:hover {
-    background-color: #E8590C;
-    color: white;
-    transition: 0.1s all ease-in-out;
-  }
 }
 
 .boxHamburgerMenu {
