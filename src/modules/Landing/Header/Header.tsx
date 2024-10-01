@@ -61,8 +61,14 @@ export function HeaderSection({ links }: HeaderSectionProps) {
   };
 
   return (
-    <Header className={styles.root} height={HEADER_HEIGHT} mb={120} onMouseLeave={() => setOpened(false)}>
-      <Container className={clsx(classes.inner, opened ? classes.innerActive : classes.inner)} size={'lg'}>
+    <Header
+      className={styles.root}
+      height={HEADER_HEIGHT}
+      mb={120}
+      onMouseLeave={() => setOpened(false)}>
+      <Container
+        className={clsx(classes.inner, opened ? classes.innerActive : classes.inner)}
+        size={'lg'}>
         <Group className={classes.menu}>
           <Burger className={classes.burger} opened={opened} size="sm" />
           <Link href={`/`}>
@@ -81,7 +87,11 @@ export function HeaderSection({ links }: HeaderSectionProps) {
               src={opened ? '/assets/home/images/close-menu.png' : '/assets/home/images/menu.png'}
             />
           </div>
-          <div className={clsx(styles.boxDropdown, opened ? styles.boxDropdownActive : styles.boxDropdown)}>
+          <div
+            className={clsx(
+              styles.boxDropdown,
+              opened ? styles.boxDropdownActive : styles.boxDropdown,
+            )}>
             {renderMenuButton()}
           </div>
         </div>

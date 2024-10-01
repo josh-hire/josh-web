@@ -3,9 +3,9 @@ import React from 'react';
 import styles from './Input.module.scss';
 
 interface Meta {
-  dirty: boolean;
+  dirty?: boolean;
   error?: string;
-  touched: boolean;
+  touched?: boolean;
   submitError?: string;
 }
 
@@ -18,7 +18,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   inputClassName?: string;
   insetIcon?: React.ReactNode;
   label?: string;
-  meta: Meta;
+  meta?: Meta;
   name?: string;
   onClickIcon?: () => void;
   onKeyUp?: (event: React.KeyboardEvent<HTMLInputElement>) => void;

@@ -1,12 +1,42 @@
 .root{
   display: flex;
   height: auto;
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: 8rem;
   width: 100%;
-  height: 78vh;
+  min-height: 100vh;
+  background-image: url('/assets/home/images/contactUs/bg-contact-us.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.8);
 }
 
 .container{
   width: auto;
+}
+
+.contactUsForm{
+  background-color: white;
+  width: 100%;
+  border-radius: 50px;
+  padding: 25px 30px;
+}
+
+.title{
+  font-size: 46px;
+  color: white;
+}
+
+.description{
+  font-size:1.4rem;
+  font-weight: 600;
+  text-align:left;
+  color: white;
+  width: 100%;
+}
+
+.instagram{
+  font-size: 2rem;
+  color: white;
 }

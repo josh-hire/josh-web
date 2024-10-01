@@ -3,9 +3,9 @@ import clsx from 'clsx';
 import styles from './TextArea.module.scss';
 
 interface Meta {
-  dirty: boolean;
+  dirty?: boolean;
   error?: string;
-  touched: boolean;
+  touched?: boolean;
   submitError?: string;
 }
 

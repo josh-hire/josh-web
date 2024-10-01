@@ -1,0 +1,134 @@
+.form {
+  &>div {
+    margin-bottom: 1rem;
+  }
+}
+
+.containerForm {
+  border-radius: 50px;
+  background-color: white;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.contact {
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1), 0px 0px 2px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem;
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.errorText {
+  align-items: center;
+  color: #B4000F;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font-lato);
+  font-size: 1em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: flex-start;
+  line-height: 22px;
+  margin-top: 0.2rem;
+
+  >svg {
+    margin-right: 5px;
+  }
+}
+
+.buttonSubmit {
+  margin-top: 2rem;
+  background-color: #CE1222;
+  border-radius: 8px;
+
+  &:hover{
+    background-color: #CE1222;
+  }
+}
+
+.boxSuccess {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.boxSuccess>div:first-child {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.successIcon>figure>div>img {
+  margin-bottom: 2rem;
+  width: 13rem !important;
+}
+
+.titleSuccess {
+  align-items: center;
+  color: #3F3F46;
+  display: flex;
+  font-family: var(--font-lato);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.descSuccess {
+  align-items: center;
+  color: #3F3F46;
+  display: flex;
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.backButton {
+  border-radius: 8;
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 12px;
+  width: auto;
+}
+
+.boxForm {
+  position: relative;
+  visibility: visible;
+}
+
+.hideBoxForm {
+  height: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -1;
+}
+
+.iconContactUs{
+  width: 15px;
+}
+
+@media (max-width: 755px) {
+  .containerForm {
+    box-shadow: none;
+  }
+}
