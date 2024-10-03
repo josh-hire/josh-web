@@ -1,0 +1,40 @@
+.root{
+  display: flex;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #031C30;
+}
+
+.container{
+  width: auto;
+}
+
+.title{
+  font-size: 46px;
+  color: white;
+}
+
+.description{
+  font-size:1.4rem;
+  font-weight: 600;
+  text-align:left;
+  color: white;
+  width: 100%;
+}
+
+.itemProgressPage{
+  display: flex;
+  height: 4px;
+  min-width: 77px;
+  color: transparent;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-right: 16px;
+}
+
+.itemProgressActive{
+  background-color: white;
+}

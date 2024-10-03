@@ -6,7 +6,7 @@ import ScrollToTop from 'Modules/Landing/fragments/ScrollToTop';
 const DefaultLayout = ({ children }) => {
   const navigationMenu = [
     { link: `/contact-us`, label: 'Contact' },
-    { link: `/sign-up`, label: 'Sign Up' },
+    { link: `/register`, label: 'Sign Up' },
   ];
 
   return (

@@ -12,7 +12,7 @@ import { ProductSection } from 'Modules/Landing/fragments/Product/Product';
 export default function Home() {
   const navigationMenu = [
     { link: `/contact-us`, label: 'Contact' },
-    { link: `/sign-up`, label: 'Sign Up' },
+    { link: `/register`, label: 'Sign Up' },
   ];
 
   const { pathname } = useRouter();
