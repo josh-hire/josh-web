@@ -245,7 +245,7 @@ export function RegisterForm(): JSX.Element {
                         )}
                       />
                       <Button className={styles.buttonSubmit} type="submit">
-                        Submit
+                        Sign Up
                       </Button>
                       <Text mt={0} className={styles.description}>
                         Already have an account ?<Link href={''}> <span className={styles.textLink}></span>Sign In</Link>

@@ -1,6 +1,7 @@
 import { Title, Text, Container, Image, Flex, Col, Grid, Button } from '@mantine/core';
 import styles from './styles.module.scss';
 import MotionAnimate from 'Components/elements/MotionAnimate';
+import Link from 'next/link';
 
 export function HeroSection() {
   return (
@@ -31,7 +32,9 @@ export function HeroSection() {
               </Text>
               <Flex direction={'row'} justify={'end'} align={'end'} w={'100%'} mt={20}>
                 <Button className={styles.button}>Sign In</Button>
-                <Button className={styles.button}>Sign Up</Button>
+                <Link href={'/register'}>
+                  <Button className={styles.button}>Sign Up</Button>
+                </Link>
               </Flex>
             </Flex>
           </Col>
