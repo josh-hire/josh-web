@@ -2,23 +2,38 @@ import { Container, Flex, Grid, Col, Title, Text, Image } from '@mantine/core';
 import MotionAnimate from 'Components/elements/MotionAnimate';
 import styles from './styles.module.scss';
 import { RegisterForm } from './Fragments/RegisterForm';
+import { JobPositionForm } from './Fragments/JobPositionForm';
+
 import clsx from 'clsx';
 import { useState } from 'react';
 
 const RegisterModule: React.FC = () => {
+  const [activePage, setActivePage] = useState<number>(1);
+  const [data, setData] = useState<Record<string, any>>({
+    dataStep1: {},
+    dataStep2: {},
+  });
 
-  const [activePage, setActivePage] =  useState<number>(1);
-  
-  const renderProgressPage = (activePage=0) => {
+  const renderProgressPage = (activePage = 0) => {
     const data = [...new Array(6)];
 
     return data.map((_, i) => {
       return (
         <Flex key={'progressItem' + i}>
-          <div className={clsx(styles.itemProgressPage,  i<=activePage-1 && styles.itemProgressActive)} />
+          <div
+            className={clsx(
+              styles.itemProgressPage,
+              i <= activePage - 1 && styles.itemProgressActive,
+            )}
+          />
         </Flex>
       );
     });
+  };
+
+  const handleSetData = (data: any, index: number) => {
+    setActivePage(2);
+    setData({ dataStep1: data });
   };
 
   return (
@@ -72,7 +87,12 @@ const RegisterModule: React.FC = () => {
             </Flex>
           </Col>
           <Col span={6}>
-            <RegisterForm />
+            {activePage === 1 && (
+              <RegisterForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
+            {activePage === 2 && (
+              <JobPositionForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
           </Col>
         </Grid>
       </Container>

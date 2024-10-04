@@ -1,0 +1,188 @@
+.form {
+  &>div {
+    margin-bottom: 1rem;
+  }
+}
+
+.title {
+  font-size: 36px;
+  color: #333333;
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.titleJobItems {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #333333;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.containerForm {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: white;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.formCard {
+  border-radius: 8px;
+  padding: 5rem 10rem;
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.errorText {
+  align-items: center;
+  color: #B4000F;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font-lato);
+  font-size: 1em;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: flex-start;
+  line-height: 22px;
+  margin-top: 0.2rem;
+
+  >svg {
+    margin-right: 5px;
+  }
+}
+
+.buttonSubmit {
+  margin-top: 2rem;
+  margin-bottom: 5px;
+  background-color: #CE1222;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #CE1222;
+  }
+}
+
+.iconPlus {
+  color: black;
+}
+
+.iconPlusDisabled{
+  color: gray;
+}
+
+.errorStyle{
+  color: #CE1222;
+}
+
+.inputJobTitle {
+  color: black;
+  input{
+    padding-left: 40px;
+    &:disabled{
+      background-color: #D1D1D6;
+    }
+  }
+}
+
+
+
+.boxSuccess {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.boxSuccess>div:first-child {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.successIcon>figure>div>img {
+  margin-bottom: 2rem;
+  width: 13rem !important;
+}
+
+.titleSuccess {
+  align-items: center;
+  color: #3F3F46;
+  display: flex;
+  font-family: var(--font-lato);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+}
+
+.descSuccess {
+  align-items: center;
+  color: #3F3F46;
+  display: flex;
+  font-family: var(--font-lato);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.backButton {
+  border-radius: 8;
+  font-family: var(--font-lato);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 10px 12px;
+  width: auto;
+}
+
+.boxForm {
+  position: relative;
+  visibility: visible;
+}
+
+.hideBoxForm {
+  height: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  z-index: -1;
+}
+
+.iconRegister {
+  width: 15px;
+}
+
+.textLink {
+  color: #333333;
+  font-weight: 800;
+}
+
+@media (max-width: 755px) {
+  .containerForm {
+    box-shadow: none;
+  }
+}

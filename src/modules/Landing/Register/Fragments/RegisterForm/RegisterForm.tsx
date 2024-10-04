@@ -69,39 +69,9 @@ export const renderError = (
   );
 };
 
-export const onSubmit = async (
-  value: any,
-  setLoading: React.Dispatch<React.SetStateAction<boolean>>,
-  setIsError: React.Dispatch<React.SetStateAction<boolean>>,
-  setIsSuccess: React.Dispatch<React.SetStateAction<boolean>>,
-): Promise<void> => {
-  try {
-    setLoading(true);
-    const response = { success: true };
-    if (response && response.success) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      setLoading(false);
-      setIsSuccess(true);
-      setIsError(false);
-      setTimeout(() => {
-        setIsSuccess(false);
-        location?.reload();
-      }, 3000);
-    } else {
-      setIsError(true);
-      setIsSuccess(false);
-      setLoading(false);
-    }
-  } catch (err) {
-    setIsError(true);
-    setIsSuccess(false);
-    if (err instanceof Error) {
-      setLoading(false);
-    }
-  }
-};
 
-export function RegisterForm(): JSX.Element {
+
+export function RegisterForm({handleSetData}): JSX.Element {
   const [isLoading, setLoading] = useState(false);
   const [isError, setIsError] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -113,6 +83,10 @@ export function RegisterForm(): JSX.Element {
       setRenderForm(true);
     }, 200);
   }, []);
+
+  const onSubmit = (value) => {
+    handleSetData(value, 2)
+  };
 
   return (
     <div className={styles.containerForm}>
@@ -130,7 +104,7 @@ export function RegisterForm(): JSX.Element {
           <div className={!isError && !isSuccess ? styles.boxForm : styles.hideBoxForm}>
             {renderForm && (
               <Form
-                onSubmit={(value) => onSubmit(value, setLoading, setIsError, setIsSuccess)}
+                onSubmit={(value) => onSubmit(value)}
                 render={({ handleSubmit }) => {
                   return (
                     <form className={styles.form} onSubmit={handleSubmit}>

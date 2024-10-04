@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Select.module.scss';
-import { Select as SelectCore } from '@mantine/core';
+import { Select as SelectCore, SelectItem } from '@mantine/core';
 import FeatherIcon from 'feather-icons-react';
 
 interface SelectProps {
@@ -16,8 +16,8 @@ interface SelectProps {
   rightSection?: React.ReactNode;
 }
 
-const Select: React.FC<SelectProps> = (props) => {
-  const { classNames, rightSection, meta, input } = props;
+const Select: React.FC<SelectItem> = (props) => {
+  const { classNames, rightSection, meta, input, data } = props;
 
   return (
     <div
@@ -27,7 +27,7 @@ const Select: React.FC<SelectProps> = (props) => {
       }}
     >
       <SelectCore
-        data={null}
+        data={data}
         {...props}
         classNames={{
           root: meta?.error && meta?.touched ? styles.selectorError : styles.selection,
