@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import { RegisterForm } from './Fragments/RegisterForm';
 import { JobPositionForm } from './Fragments/JobPositionForm';
 import { WorkPreferencesForm } from './Fragments/WorkPreferencesForm';
-
+import { SkillPossesedForm } from './Fragments/SkillPossesedForm';
 
 import clsx from 'clsx';
 import { useState } from 'react';
@@ -95,8 +95,11 @@ const RegisterModule: React.FC = () => {
             {activePage === 2 && (
               <JobPositionForm handleSetData={(data, index) => handleSetData(data, index)} />
             )}
-             {activePage === 3 && (
+            {activePage === 3 && (
               <WorkPreferencesForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
+            {activePage === 4 && (
+              <SkillPossesedForm handleSetData={(data, index) => handleSetData(data, index)} />
             )}
           </Col>
         </Grid>

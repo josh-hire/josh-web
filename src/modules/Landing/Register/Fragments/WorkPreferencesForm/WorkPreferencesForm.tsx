@@ -63,7 +63,7 @@ export function WorkPreferencesForm({ handleSetData }): JSX.Element {
         workTypeData,
       },
     };
-    handleSetData(payload, 3);
+    handleSetData(payload, 4);
     const isNotSelected =
       workTypeData?.filter((item: initialWorkTypeProps) => item?.checked)?.length <= 0;
     if (isNotSelected) {
