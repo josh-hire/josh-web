@@ -206,7 +206,7 @@ export function JobPositionForm({ handleSetData }): JSX.Element {
                         />
                       )}
                       <Button className={styles.buttonSubmit} type="submit">
-                        Sign Up
+                        Submit
                       </Button>
                     </form>
                   );

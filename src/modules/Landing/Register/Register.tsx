@@ -3,6 +3,8 @@ import MotionAnimate from 'Components/elements/MotionAnimate';
 import styles from './styles.module.scss';
 import { RegisterForm } from './Fragments/RegisterForm';
 import { JobPositionForm } from './Fragments/JobPositionForm';
+import { WorkPreferencesForm } from './Fragments/WorkPreferencesForm';
+
 
 import clsx from 'clsx';
 import { useState } from 'react';
@@ -32,7 +34,7 @@ const RegisterModule: React.FC = () => {
   };
 
   const handleSetData = (data: any, index: number) => {
-    setActivePage(2);
+    setActivePage(index);
     setData({ dataStep1: data });
   };
 
@@ -92,6 +94,9 @@ const RegisterModule: React.FC = () => {
             )}
             {activePage === 2 && (
               <JobPositionForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
+             {activePage === 3 && (
+              <WorkPreferencesForm handleSetData={(data, index) => handleSetData(data, index)} />
             )}
           </Col>
         </Grid>
