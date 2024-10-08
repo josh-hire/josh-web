@@ -5,6 +5,8 @@ import { RegisterForm } from './Fragments/RegisterForm';
 import { JobPositionForm } from './Fragments/JobPositionForm';
 import { WorkPreferencesForm } from './Fragments/WorkPreferencesForm';
 import { SkillPossesedForm } from './Fragments/SkillPossesedForm';
+import { WorkExperienceForm } from './Fragments/WorkExperienceForm';
+import { EducationBackgroundForm } from './Fragments/EducationBackgroundForm';
 
 import clsx from 'clsx';
 import { useState } from 'react';
@@ -14,6 +16,10 @@ const RegisterModule: React.FC = () => {
   const [data, setData] = useState<Record<string, any>>({
     dataStep1: {},
     dataStep2: {},
+    dataStep3: {},
+    dataStep4: {},
+    dataStep5: {},
+    dataStep6: {},
   });
 
   const renderProgressPage = (activePage = 0) => {
@@ -100,6 +106,12 @@ const RegisterModule: React.FC = () => {
             )}
             {activePage === 4 && (
               <SkillPossesedForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
+            {activePage === 5 && (
+              <WorkExperienceForm handleSetData={(data, index) => handleSetData(data, index)} />
+            )}
+            {activePage === 6 && (
+              <EducationBackgroundForm handleSetData={(data, index) => handleSetData(data, index)} />
             )}
           </Col>
         </Grid>

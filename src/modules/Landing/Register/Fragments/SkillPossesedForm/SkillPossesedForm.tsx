@@ -63,7 +63,7 @@ export function SkillPossesedForm({ handleSetData }): JSX.Element {
         {
           dataStep4: dataSelected,
         },
-        4,
+        5,
       );
     }
   };

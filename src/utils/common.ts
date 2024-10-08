@@ -19,8 +19,8 @@ export function getSizeValue(_size) {
     _size /= 1024;
     i++;
   }
-  
-return Math.round(_size * 100) / 100 + ' ' + fSExt[i];
+
+  return Math.round(_size * 100) / 100 + ' ' + fSExt[i];
 }
 
 export function generateArrayOfYears() {
@@ -35,7 +35,7 @@ export function generateArrayOfYears() {
   return years;
 }
 
-export const noop = () => {};
+export const noop = () => { };
 
 export function toTitleCase(str = '', replaceValue, stringCheck, isMobile) {
   let _str = str;
@@ -55,3 +55,24 @@ export const generateMetaData = (data) =>
     image: data?.thumbnailUrl,
     keywords: data?.meta?.keywords?.toString(),
   });
+
+
+export const generateYears = (startYear: number = 1970): number[] =>{
+  const currentYear = new Date().getFullYear();
+  const years: number[] = [];
+
+  for (let year = startYear; year <= currentYear; year++) {
+    years.push(year);
+  }
+
+  return years;
+}
+
+export const generateMonths = (): string[] => {
+  const months: string[] = [
+    'January', 'February', 'March', 'April', 'May', 'June',
+    'July', 'August', 'September', 'October', 'November', 'December'
+  ];
+
+  return months;
+}

@@ -1,0 +1,1 @@
+export { EducationBackgroundForm } from './EducationBackgroundForm';

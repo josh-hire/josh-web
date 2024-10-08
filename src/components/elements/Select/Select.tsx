@@ -14,10 +14,12 @@ interface SelectProps {
     touched?: boolean;
   };
   rightSection?: React.ReactNode;
+  hideIconRight?: boolean;
+
 }
 
 const Select: React.FC<SelectItem> = (props) => {
-  const { classNames, rightSection, meta, input, data } = props;
+  const { classNames, rightSection, meta, input, data, hideIconRight=false } = props;
 
   return (
     <div
@@ -37,7 +39,7 @@ const Select: React.FC<SelectItem> = (props) => {
           ...classNames,
         }}
         rightSection={rightSection ??
-          <FeatherIcon icon="chevron-down" />}
+          <FeatherIcon className={hideIconRight && styles.hideIcon} icon="chevron-down" />}
         styles={{
           rightSection: { pointerEvents: 'none' },
         }}

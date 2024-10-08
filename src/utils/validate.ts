@@ -21,10 +21,10 @@ export const passwordRequirement = (value = '') => [
 
 export const composeValidators =
   (...validators) =>
-  (value) =>
-    validators.reduce(function (error, validator) {
-      return error || validator(value);
-    }, undefined);
+    (value) =>
+      validators.reduce(function (error, validator) {
+        return error || validator(value);
+      }, undefined);
 
 export const required = (message) => (value) => !value ? message : undefined;
 
@@ -44,3 +44,9 @@ export const emailRegex = (value) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i
 export const charRegex = (value) => /^[A-Za-z\s]+$/.test(value); // NOSONAR
 export const numberRegex = (value) => /^[0-9]+$/.test(value); // NOSONAR
 export const noWhiteSpaceRegex = (value) => /^(?! ).*[^]$/.test(value); // NOSONAR
+
+export const greaterThan = (message, min: number) => (value: number) =>
+  value > min ? '' : message;
+
+export const lessThan = (message, max: number) => (value: number) =>
+  value < max ? '' : message;
