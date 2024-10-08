@@ -2,7 +2,7 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import { Menu, Center, Header, Container, Group, Button, Burger, Image } from '@mantine/core';
 import Link from 'next/link';
-import { URL_PT_tester_APP } from 'Utils/constants';
+import { URL_PT_joshweb_APP } from 'Utils/constants';
 import { useStyles } from './Header.styles';
 import styles from './styles.module.scss';
 
@@ -51,7 +51,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
   const renderMenuButton = () => {
     return (
       <div className={styles.boxButtonMobile}>
-        <Link href={`${URL_PT_tester_APP}`} passHref>
+        <Link href={`${URL_PT_joshweb_APP}`} passHref>
           <Button className={styles.button} radius="xl" sx={{ height: 30 }}>
             LOGIN
           </Button>
@@ -81,7 +81,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
           </Link>
           <div className={styles.menuDropdown} onClick={() => setOpened(!opened)}>
             <Image
-              alt={'Icon Menu PT_tester'}
+              alt={'Icon Menu PT_joshweb'}
               fit="contain"
               radius="md"
               src={opened ? '/assets/home/images/close-menu.png' : '/assets/home/images/menu.png'}

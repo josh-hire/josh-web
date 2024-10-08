@@ -21,7 +21,7 @@ export function HeroSection() {
         <Grid columns={12}>
           <Col span={6}>
             <div className={styles.heroImage}>
-              <Image alt="Logo PT_tester" src={'/assets/home/images/hero.png'} />
+              <Image alt="Logo PT_joshweb" src={'/assets/home/images/hero.png'} />
             </div>
           </Col>
           <Col span={6}>

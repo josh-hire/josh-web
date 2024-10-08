@@ -3,11 +3,11 @@ export const BASIC_AUTH = {
 };
 
 export const SITE_URL = (() => {
-  return process?.env?.SITE_URL || 'http://dev.PT_tester.id';
+  return process?.env?.SITE_URL || 'http://dev.PT_joshweb.id';
 })();
 
-export const URL_PT_tester_APP = (() => {
-  return process?.env?.URL_PT_tester_APP;
+export const URL_PT_joshweb_APP = (() => {
+  return process?.env?.URL_PT_joshweb_APP;
 })();
 
 export const DEV_MODE = (() => {

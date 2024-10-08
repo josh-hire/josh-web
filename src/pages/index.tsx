@@ -41,22 +41,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>PT_tester - Solusi Digital Baru Untuk Digital Yang Lebih Optimal</title>
+        <title>PT_joshweb - Solusi Digital Baru Untuk Digital Yang Lebih Optimal</title>
         <link href="/favicon.ico" rel="icon" />
-        <link href="/PT_tester.png" rel="apple-touch-icon" sizes="256x256" />
-        <link href="/PT_tester.png" rel="icon" type="image/png" />
+        <link href="/PT_joshweb.png" rel="apple-touch-icon" sizes="256x256" />
+        <link href="/PT_joshweb.png" rel="icon" type="image/png" />
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
-        <meta content="PT_tester" property="og:site_name" />
+        <meta content="PT_joshweb" property="og:site_name" />
         <meta
-          content="PT_tester - Solusi Digital Baru Untuk Digital Yang Lebih Optimal"
+          content="PT_joshweb - Solusi Digital Baru Untuk Digital Yang Lebih Optimal"
           property="og:title"
         />
         <meta
-          content="PT_tester merupakan platform Digital yang mendigitalisasi layanan Transportasi dan Distribusi secara end-to-end serta didukung oleh Digital dari Control Tower"
+          content="PT_joshweb merupakan platform Digital yang mendigitalisasi layanan Transportasi dan Distribusi secara end-to-end serta didukung oleh Digital dari Control Tower"
           name="description"
         />
-        <meta content="Control Tower, Distribusi, Transportasi, PT_tester" name="keywords" />
-        <meta content="{{ asset('images/PT_tester.png') }}" itemProp="image" property="og:image" />
+        <meta content="Control Tower, Distribusi, Transportasi, PT_joshweb" name="keywords" />
+        <meta content="{{ asset('images/PT_joshweb.png') }}" itemProp="image" property="og:image" />
         <meta content="website" property="og:type" />
         <meta content="1200" property="og:image:width" />
         <meta content="600" property="og:image:height" />

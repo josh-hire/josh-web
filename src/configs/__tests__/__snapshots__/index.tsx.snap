@@ -2,17 +2,17 @@
 
 exports[`src/configs test config images 1`] = `
 {
-  "WEB TESTER": "/assets/logo/mylogo.png",
+  "WEB JOSHWEB": "/assets/logo/mylogo.png",
 }
 `;
 
 exports[`src/configs test config index 1`] = `
 {
-  "WEB TESTER": "/assets/logo/mylogo.png",
+  "WEB JOSHWEB": "/assets/logo/mylogo.png",
 }
 `;
 
-exports[`src/configs test config index 2`] = `"__PT_tester-token"`;
+exports[`src/configs test config index 2`] = `"__PT_joshweb-token"`;
 
 exports[`src/configs test config index 3`] = `"user_profile"`;
 

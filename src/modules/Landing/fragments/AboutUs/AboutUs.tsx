@@ -38,7 +38,7 @@ export function AboutUsSection() {
               </Flex>
               <Flex direction={'column'} justify={'center'} align={'center'} h={'100%'} px={40}>
                 <Image
-                  alt="Logo PT_tester"
+                  alt="Logo PT_joshweb"
                   src={'/assets/home/images/aboutUs/img-content.png'}
                   fit="fill"
                 />

@@ -1,7 +1,19 @@
 import { GetServerSideProps, InferGetServerSidePropsType } from 'next';
 import DefaultLayout from 'Modules/Layout/DefaultLayout';
 import RegisterModule from 'Modules/Landing/Register';
-import { RegisterPageProps } from './registerModel';
+
+export interface MetaRegisterProps {
+  description: string;
+}
+
+export interface DataRegisterProps {
+  title: string;
+  meta: MetaRegisterProps;
+}
+
+export interface RegisterPageProps {
+  data: DataRegisterProps;
+}
 
 export const getServerSideProps: GetServerSideProps<RegisterPageProps> = async () => {
   return {

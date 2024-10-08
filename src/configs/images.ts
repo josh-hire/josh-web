@@ -1,5 +1,5 @@
 export const images = {
-  'WEB TESTER': '/assets/logo/mylogo.png',
+  'WEB JOSHWEB': '/assets/logo/mylogo.png',
 };
 
 export default images;
