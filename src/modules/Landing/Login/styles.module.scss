@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 0rem;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/assets/home/images/login/bg-login.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.container {
+  width: auto;
+}
+
+.title {
+  font-size: 46px;
+  color: white;
+}
+
+.description {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+  width: 100%;
+}
+
+.itemProgressPage {
+  display: flex;
+  height: 4px;
+  min-width: 77px;
+  color: transparent;
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-right: 16px;
+}
+
+.itemProgressActive {
+  background-color: white;
+}
+
+@media screen and (max-width: 775px) {
+  .title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .description {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .root {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+  }
+
+  .itemProgressPage {
+    height: 4px;
+    min-width: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+  }
+
+  .boxProgress{
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
