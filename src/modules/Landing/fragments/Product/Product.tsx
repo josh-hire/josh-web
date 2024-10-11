@@ -83,10 +83,15 @@ export function ProductSection() {
             dragFree
             loop
             slideSize="25%"
-            height={664}
+            height={'auto'}
             withControls={false}
             initialSlide={2}
-            plugins={[autoplay.current]}>
+            plugins={[autoplay.current]}
+            breakpoints={[
+              { maxWidth: 'md', slideSize: '50%' },
+              { maxWidth: 'sm', slideSize: '100%', slideGap: 0 },
+            ]}
+            >
             {productItems()}
           </Carousel>
         </Flex>

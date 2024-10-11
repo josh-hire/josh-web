@@ -118,7 +118,7 @@ export function JobPositionForm({ handleSetData }): JSX.Element {
     <div className={styles.containerForm}>
       <div className={styles.formCard}>
         <LoadingOverlay visible={isLoading} />
-        <Flex direction={'column'} justify={'center'} align={'center'} mb={100} w={'100%'}>
+        <Flex direction={'column'} justify={'center'} align={'center'} mb={100} w={'100%'} className={styles.boxForm}>
           <Title className={styles.title}>What position are you aiming for ?</Title>
           <Text mt={0} className={styles.description}>
             we will help you in finding a job

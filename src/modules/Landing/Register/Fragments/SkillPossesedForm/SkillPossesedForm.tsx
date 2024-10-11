@@ -94,7 +94,7 @@ export function SkillPossesedForm({ handleSetData }): JSX.Element {
 
   const renderSkillItems = () => (
     <Flex direction={'column'} align={'flex-start'} justify={'flex-start'} w={'100%'} mt={20}>
-      <SimpleGrid breakpoints={[{ maxWidth: 'md', cols: 1 }]} cols={3} spacing={30}>
+      <SimpleGrid breakpoints={[{ maxWidth: 'md', cols: 2 }]} cols={3} spacing={30}>
         {dataSkillPossesed
           ?.filter((item) => !item?.added)
           .map((item: SkillItem, i) => {
@@ -149,7 +149,7 @@ export function SkillPossesedForm({ handleSetData }): JSX.Element {
     <div className={styles.containerForm}>
       <div className={styles.formCard}>
         <LoadingOverlay visible={isLoading} />
-        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'}>
+        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'} className={styles.boxForm}>
           <Title className={styles.title}>Skill Possesed</Title>
           <Text mt={0} className={styles.description}>
             What key skills can you offer to the company?

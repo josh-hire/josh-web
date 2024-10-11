@@ -15,14 +15,13 @@ const ContactUsModule: React.FC = () => {
       <Container className={styles.root} fluid>
         <Container w={'100%'} size={'lg'}>
           <Grid columns={12}>
-            <Col span={6}>
+            <Col lg={6} sm={12}>
               <Flex
                 direction={'column'}
                 h={'100%'}
                 justify={'flex-start'}
                 align={'flex-start'}
                 w={'100%'}>
-                <div>
                   <Title className={styles.title}>Get In Touch</Title>
                   <Text mt={20} className={styles.description}>
                     Have a questions or feedback?
@@ -30,12 +29,12 @@ const ContactUsModule: React.FC = () => {
                   <Text className={styles.description}>
                     fill out the form and we will be in touch
                   </Text>
-                </div>
                 <Flex
                   direction={'row'}
                   justify={'flex-start'}
                   align={'center'}
                   mt={'12rem'}
+                  className={styles.boxInstagram}
                   w={'100%'}>
                   <Image
                     fit="contain"
@@ -50,7 +49,7 @@ const ContactUsModule: React.FC = () => {
                 </Flex>
               </Flex>
             </Col>
-            <Col span={6}>
+            <Col lg={6} sm={12}>
               <ContactUsForm />
             </Col>
           </Grid>

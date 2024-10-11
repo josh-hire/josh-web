@@ -1,9 +1,20 @@
-.root{
-  background-color: rgba(0, 0, 0, 1);
-  padding-bottom: 5rem;
-  padding-top: 3rem;
+.root {
+  background-color: white;
+  padding-top: 2rem;
   width: 100%;
   border-top: 0px solid;
+}
+
+.boxContainer {
+  display: block;
+  width: 100%;
+  background-color: #031C30;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-left: 12rem;
+  padding-right: 0px;
 }
 
 .boxItem {
@@ -33,7 +44,7 @@
   font-family: var(--font-lato);
   font-style: normal;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 28px;
   color: white;
   margin-bottom: 1rem;
 }
@@ -42,7 +53,7 @@
   font-family: var(--font-lato);
   font-style: normal;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 31px;
   color: white;
   margin-bottom: 0rem;
 }
@@ -51,7 +62,7 @@
   font-family: var(--font-lato);
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 22px;
   color: #D9DBE1;
 }
@@ -68,7 +79,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 0.4rem;
 }
 
@@ -103,6 +114,12 @@
 }
 
 @media screen and (max-width: 775px) {
+  .titleMenuBottomLeft {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   .titleMenuBottom {
     margin-top: 1.5rem;
     font-weight: 600;
@@ -112,5 +129,24 @@
 
   .boxTitleLink {
     margin-bottom: 0.8rem;
+  }
+
+  .boxContainer {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 0px;
+  }
+
+  .appImage {
+    &>figure {
+      &>div {
+        &>img {
+          width: 150px !important;
+        }
+      }
+    }
   }
 }

@@ -94,7 +94,7 @@ export function RegisterForm({handleSetData}): JSX.Element {
         <LoadingOverlay visible={isLoading} />
         {isSuccess && renderSukses()}
         {isError && renderError(setIsError, setIsSuccess)}
-        <Flex direction={'column'} justify={'center'} align={'center'} mb={100} w={'100%'}>
+        <Flex direction={'column'} justify={'center'} align={'center'} mb={100} w={'100%'} className={styles.boxForm}>
           <Title className={styles.title}>Create your Account</Title>
           <Text mt={0} className={styles.description}>
             and become a mamber to see job opportunity

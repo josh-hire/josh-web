@@ -1,31 +1,31 @@
-.root{
+.root {
   display: flex;
   height: auto;
   padding-top: 5rem;
-  padding-bottom: 0rem;
+  padding-bottom: 3rem;
   width: 100%;
   min-height: 100vh;
   background-color: #031C30;
 }
 
-.container{
+.container {
   width: auto;
 }
 
-.title{
+.title {
   font-size: 46px;
   color: white;
 }
 
-.description{
-  font-size:1.4rem;
+.description {
+  font-size: 1.4rem;
   font-weight: 600;
-  text-align:left;
+  text-align: left;
   color: white;
   width: 100%;
 }
 
-.itemProgressPage{
+.itemProgressPage {
   display: flex;
   height: 4px;
   min-width: 77px;
@@ -35,6 +35,74 @@
   margin-right: 16px;
 }
 
-.itemProgressActive{
+.itemProgressActive {
   background-color: white;
+}
+
+@media screen and (max-width: 775px) {
+  .title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0;
+  }
+
+  .description {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .root {
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .itemProgressPage {
+    height: 4px;
+    min-width: 30px;
+    border-radius: 30px;
+    margin-right: 5px;
+  }
+
+  .boxLeftSection{
+    padding-right: 0;
+    width: auto;
+    align-items: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .containerTitle{
+    width: auto;
+    height: auto;
+
+  }
+
+  .boxTitle {
+    align-items: flex-start;
+    margin-top: 7rem;
+    margin-left: 0;
+    width: auto;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .joshLogo {
+    width: 60px !important;
+    margin-top: 10px;
+    &>figure {
+      height: auto;
+      &>div {
+        &>img {
+          width: 60px !important;
+          height: auto !important;
+        }
+      }
+    }
+  }
+
+  .boxProgress{
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
 }

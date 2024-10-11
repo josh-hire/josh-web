@@ -13,7 +13,7 @@ export function FooterSection() {
           id: 1,
           url: '#',
           image: null,
-          title: 'Work for us',
+          title: 'Work with us',
           target: '_blank',
         },
       ],
@@ -38,22 +38,29 @@ export function FooterSection() {
     },
     {
       id: 3,
-      title: 'Contact',
-      marginLeft: 70,
+      title: 'Connect With Us',
+      marginLeft: 0,
       linkData: [
         {
-          marginLeft: 70,
+          marginLeft: 0,
+          id: 1,
+          url: '#',
+          image: '/assets/home/images/instagram.png',
+          title: '@Josh.official',
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: 'Contact',
+      marginLeft: 0,
+      linkData: [
+        {
+          marginLeft: 0,
           id: 1,
           url: '#',
           image: null,
           title: 'Get in touch',
-        },
-        {
-          id: 2,
-          marginLeft: 70,
-          url: '#',
-          image: null,
-          title: 'Media/PR',
         },
       ],
     },
@@ -110,28 +117,53 @@ export function FooterSection() {
   const boxItemFooter = () => {
     return (
       <SimpleGrid breakpoints={[{ maxWidth: 'md', cols: 1 }]} cols={1} spacing={0}>
-        <Text align="start" className={styles.titleMenuBottomLeft} size="md">
-          Logo Footer
-        </Text>
-        <Text align="left" className={styles.title} mt="sm" size="lg" weight={500}>
+        <div>
+          <Text align="start" className={styles.titleMenuBottomLeft} size="md">
+            find your dream job at JOSH
+          </Text>
+        </div>
+        <Flex>
+          <Image
+            className={styles.appImage}
+            mr={20}
+            mt={16}
+            alt={'google-play'}
+            fit="contain"
+            src={'/assets/home/images/google-play.png'}
+            width={'180px'}
+          />
+          <Image
+            className={styles.appImage}
+            mt={16}
+            alt={'play-store'}
+            fit="contain"
+            src={'/assets/home/images/google-play.png'}
+            width={'180px'}
+          />
+        </Flex>
+        {/* <Text align="left" className={styles.title} mt="sm" size="lg" weight={500}>
           © 2024 getahead. All rights reserved.
-        </Text>
+        </Text> */}
       </SimpleGrid>
     );
   };
 
   return (
     <Footer className={styles.root} height={'auto'}>
-      <Container>
-        <Grid align="left" gutter={0}>
-          <Col md={5} mt={50} span={3}>
-            {boxItemFooter()}
-          </Col>
-          <Col className={styles.imageWrap} md={7} mt={21} span={12}>
-            <Flex>{itemMenuFooter}</Flex>
-          </Col>
-        </Grid>
-      </Container>
+      <div className={styles.boxContainer}>
+        <Container fluid>
+          <Grid align="left" gutter={0}>
+            <Col md={5} mt={50} lg={5} sm={12}>
+              {boxItemFooter()}
+            </Col>
+            <Col className={styles.imageWrap} md={7} mt={0} lg={7}>
+              <SimpleGrid breakpoints={[{ maxWidth: 'md', cols: 2 }]} cols={2} spacing={30}>
+                {itemMenuFooter}
+              </SimpleGrid>
+            </Col>
+          </Grid>
+        </Container>
+      </div>
     </Footer>
   );
 }

@@ -4,7 +4,6 @@
   padding-top: 10rem;
   padding-bottom: 8rem;
   width: 100%;
-
 }
 
 .title{
@@ -50,5 +49,42 @@
     background-color: white;
     border: 1px solid white;
     transition: 0.1s all ease-in-out;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .title{
+    font-size: 28px;
+    text-align: center;
+    align-self: center;
+  }
+
+  .description{
+    font-size:14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .boxButton{
+    justify-content: space-between;
+    :first-child{
+      margin-left: 0;
+    }
+  }
+
+  .root{
+    padding-bottom: 4rem;
+    width: 100%;
+  }
+
+  .heroImage{
+    z-index: 999;
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 20px;
+    width: 90%;
+    margin-top: 6rem;
+    margin-bottom: 10px;
   }
 }

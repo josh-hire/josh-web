@@ -63,7 +63,7 @@ export function EducationBackgroundForm({ handleSetData }): JSX.Element {
     <div className={styles.containerForm}>
       <div className={styles.formCard}>
         <LoadingOverlay visible={false} />
-        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'}>
+        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'} className={styles.boxForm}>
           <Title className={styles.title}>Education Background</Title>
         </Flex>
         {

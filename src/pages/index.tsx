@@ -41,14 +41,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>PT_joshweb - Solusi Digital Baru Untuk Digital Yang Lebih Optimal</title>
+        <title>Josh-Web - Hire Digital Solution</title>
         <link href="/favicon.ico" rel="icon" />
         <link href="/PT_joshweb.png" rel="apple-touch-icon" sizes="256x256" />
         <link href="/PT_joshweb.png" rel="icon" type="image/png" />
         <link href="/favicon.ico" rel="icon" type="image/x-icon" />
         <meta content="PT_joshweb" property="og:site_name" />
         <meta
-          content="PT_joshweb - Solusi Digital Baru Untuk Digital Yang Lebih Optimal"
+          content="PT_joshweb - Hire Digital Solution"
           property="og:title"
         />
         <meta

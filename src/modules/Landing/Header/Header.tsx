@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import clsx from 'clsx';
-import { Menu, Center, Header, Container, Group, Button, Burger, Image } from '@mantine/core';
+import { Menu, Center, Header, Container, Group, Burger, Image } from '@mantine/core';
 import Link from 'next/link';
-import { URL_PT_joshweb_APP } from 'Utils/constants';
 import { useStyles } from './Header.styles';
 import styles from './styles.module.scss';
 
@@ -48,13 +47,27 @@ export function HeaderSection({ links }: HeaderSectionProps) {
     );
   });
 
+  const itemsMobile = () => {
+    if (links) {
+      const itemLink = links?.map((item) => {
+        return (
+          <div className={styles.linkItemMobile} key={item.label}>
+            <Link href={item?.link} passHref>
+              <span className={classes.linkLabel}>{item.label}</span>
+            </Link>
+          </div>
+        );
+      });
+
+      return itemLink;
+    }
+  };
+
   const renderMenuButton = () => {
     return (
       <div className={styles.boxButtonMobile}>
-        <Link href={`${URL_PT_joshweb_APP}`} passHref>
-          <Button className={styles.button} radius="xl" sx={{ height: 30 }}>
-            LOGIN
-          </Button>
+        <Link href={''} passHref>
+          <span className={styles.button}>Download the app</span>
         </Link>
       </div>
     );
@@ -66,9 +79,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
       height={HEADER_HEIGHT}
       mb={120}
       onMouseLeave={() => setOpened(false)}>
-      <Container
-        className={clsx(classes.inner, opened ? classes.innerActive : classes.inner)}
-        size={'lg'}>
+      <Container className={clsx(classes.inner)} size={'lg'}>
         <Group className={classes.menu}>
           <Burger className={classes.burger} opened={opened} size="sm" />
           <Link href={`/`}>
@@ -76,8 +87,8 @@ export function HeaderSection({ links }: HeaderSectionProps) {
           </Link>
         </Group>
         <div className={styles.boxHamburgerMenu} style={{ display: 'none' }}>
-          <Link href={`/`} passHref>
-            <div className={styles.boxLogo}>LOGO</div>
+          <Link href={`/`}>
+            <Image alt="Logo-header" src={'/assets/home/images/logo-header.png'} />
           </Link>
           <div className={styles.menuDropdown} onClick={() => setOpened(!opened)}>
             <Image
@@ -92,6 +103,7 @@ export function HeaderSection({ links }: HeaderSectionProps) {
               styles.boxDropdown,
               opened ? styles.boxDropdownActive : styles.boxDropdown,
             )}>
+            {itemsMobile()}
             {renderMenuButton()}
           </div>
         </div>

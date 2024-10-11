@@ -54,27 +54,32 @@ const RegisterModule: React.FC = () => {
       }}>
       <Container className={styles.root} fluid p={0}>
         <Grid w={'100%'} columns={12}>
-          <Col span={6}>
+          <Col lg={6} sm={12}>
             <Flex
               direction={'column'}
               justify={'space-between'}
               align={'flex-start'}
               h={'100%'}
               pr={100}
-              w={'100%'}>
-              <div>
+              w={'100%'}
+              className={styles.boxLeftSection}
+              >
+              <div className={styles.containerTitle}>
                 <Flex
                   direction={'row'}
                   justify={'flex-end'}
                   align={'center'}
                   h={'100%'}
                   ml={110}
-                  mt={'50%'}>
+                  mt={'50%'}
+                  className={styles.boxTitle}
+                  >
                   <Image
                     fit="contain"
                     height={135}
                     alt="josh"
                     src={'/assets/home/images/josh.png'}
+                    className={styles.joshLogo}
                   />
                   <Flex
                     direction={'column'}
@@ -89,12 +94,12 @@ const RegisterModule: React.FC = () => {
                   </Flex>
                 </Flex>
               </div>
-              <Flex direction={'row'} justify={'flex-start'} align={'flex-start'} ml={100} mb={50}>
+              <Flex  direction={'row'} justify={'flex-start'} align={'flex-start'} ml={100} mb={50} className={styles.boxProgress}>
                 {renderProgressPage(activePage)}
               </Flex>
             </Flex>
           </Col>
-          <Col span={6}>
+          <Col lg={6} sm={12}>
             {activePage === 1 && (
               <RegisterForm handleSetData={(data, index) => handleSetData(data, index)} />
             )}

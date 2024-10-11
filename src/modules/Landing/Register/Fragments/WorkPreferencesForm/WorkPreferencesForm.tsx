@@ -135,7 +135,7 @@ export function WorkPreferencesForm({ handleSetData }): JSX.Element {
     <div className={styles.containerForm}>
       <div className={styles.formCard}>
         <LoadingOverlay visible={isLoading} />
-        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'}>
+        <Flex direction={'column'} justify={'center'} align={'center'} mb={70} w={'100%'}  className={styles.boxForm}>
           <Title className={styles.title}>Work Preferences</Title>
           <Text mt={0} className={styles.description}>
             Key to Finding Your Ideal Job
