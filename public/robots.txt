@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://dev.joshweb.id
+Host: https://dev.pttester.id
 
 # Sitemaps
-Sitemap: https://dev.joshweb.id/sitemap.xml
+Sitemap: https://dev.pttester.id/sitemap.xml

@@ -41,7 +41,7 @@ const ContactUsModule: React.FC = () => {
                     height={34}
                     width={35}
                     alt="instagrams"
-                    src={'/assets/home/images/instagram.png'}
+                    src={'/assets/home/images/sosmed-instagram.png'}
                   />
                   <Text ml={10} className={styles.instagram}>
                     @Josh.official

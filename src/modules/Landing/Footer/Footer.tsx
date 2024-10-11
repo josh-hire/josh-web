@@ -45,7 +45,7 @@ export function FooterSection() {
           marginLeft: 0,
           id: 1,
           url: '#',
-          image: '/assets/home/images/instagram.png',
+          image: '/assets/home/images/sosmed-instagram.png',
           title: '@Josh.official',
         },
       ],
